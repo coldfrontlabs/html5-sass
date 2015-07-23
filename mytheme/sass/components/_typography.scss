@@ -1,0 +1,25 @@
+h1, 
+h2, 
+h3{
+  font-family: $roboto;
+}
+
+h1, 
+h2{
+  color: $primary;
+}
+
+p{
+  color: $black;
+}
+
+a, 
+a:link{
+  color: $primary;
+  @include ease(color, 150ms, ease-in-out);
+}
+
+a:focus,
+a:hover{
+  color: darken($primary, 10%);
+}

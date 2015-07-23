@@ -1,0 +1,13 @@
+.view-news{
+  .item-list ol{
+    list-style-type: none;
+    @include zero;
+
+  }
+  li{
+    padding: 1em 0;
+    margin: 1em 0;
+    border-top: 3px double #ddd;
+  }
+}
+
